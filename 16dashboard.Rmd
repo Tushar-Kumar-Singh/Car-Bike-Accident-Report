@@ -1,0 +1,53 @@
+---
+title: "dashboard"
+author: "kavi"
+date: "2024-04-15"
+output: html_document
+---
+
+#Dashboard  For Practice
+
+
+##Introduction
+
+This is dahsboard provides and overview of sample data
+
+##Data
+
+dataset is mtcars from Rstudio
+
+```{r}
+summary(mtcars)
+
+{r,echo=FALSE}
+data_frame<-data.frame(Name=c("Gaurav","Manvi"),age=c(20,21))
+data_frame
+
+```
+
+
+
+
+```{r}
+[link](https://www.google.com)
+
+1.list item
+
+* list
+```
+
+
+
+
+
+
+{r}
+boxplot(mtcars$mpg,main="Boxplot of mpg",ylab="y",xlab="x")
+
+
+{r}
+barplot(mtcars$mpg,main="Boxplot of mpg",ylab="y",xlab="x")
+
+{r}
+plot(mtcars$mpg,mtcars$wt,main = "Scatter plot",xlab = "X",ylab = "Y",col="Red",cex=2)
+
